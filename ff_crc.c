@@ -239,7 +239,7 @@ static const uint8_t crc8_table[ 256 ] =
 * Parameters:  pbyData - Pointer to the source data
 *              stLength - The length to CRC
 *
-* Return value: The 8 bit CRC value
+* Return value: Return 8 bit CRC value
 *
 *****************************************************************************/
 
