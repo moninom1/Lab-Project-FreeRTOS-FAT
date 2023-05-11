@@ -246,7 +246,7 @@ static const uint8_t crc8_table[ 256 ] =
 uint8_t FF_GetCRC8( uint8_t * pbyData,
                     uint32_t stLength )
 {
-      uint8_t byCRC = 0, byData;
+    uint8_t byCRC = 0, byData;
 
     while( stLength-- != 0 )
     {
